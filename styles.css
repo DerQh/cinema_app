@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --brunswick_green: rgba(52, 78, 65);
+  --hunter_green: rgba(58, 90, 64);
+  --fern_green: rgba(88, 129, 49);
+  --sage: rgba(163, 177, 138);
+  --timber-wolf: rgba(218, 215, 205);
+  --black: rgba(15, 15, 15);
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--black);
+}
+.wrapper {
+  color: var(--white);
+  position: relative;
+  width: 100dvw;
+  height: 100dvh;
+  /* overflow-y: scroll; */
+}
+
+/* NAVBAR */
+.navbar {
+  justify-content: space-between;
+}
+header {
+  padding: 10px 5px;
+}
+.menubar:nth-child(1) {
+  margin-top: 0;
+}
+.menubar {
+  height: 2px;
+  background-color: var(--white);
+  width: 20px;
+  border-radius: 1px;
+  margin-top: 5px;
+}
+.login-div {
+  border: 2px solid var(--white);
+  padding: 6px 12px;
+  border-radius: 18px;
+}
+.login-div h2 {
+  font-weight: 100;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.search {
+  background-color: rgba(15, 15, 15);
+  border-radius: 5px;
+  border: 1px solid green;
+}
+.search-arrow img,
+.login-div > img {
+  max-width: 20px;
+}
+
+/* general css */
+.flex {
+  display: flex;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+
+/* END -NAVBAR-*/
